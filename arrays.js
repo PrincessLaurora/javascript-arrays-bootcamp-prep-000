@@ -20,8 +20,8 @@ return array;
 }
 
 function addElementToEndOfArray (array, element) {
-var poparray = [array, ...element];
-  return newarray;
+var lauarray = [array, ...element];
+  return lauarray;
 }
 
 function destructivelyAddElementToEndOfArray (array, element) {
