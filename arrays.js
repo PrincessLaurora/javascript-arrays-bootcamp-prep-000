@@ -39,8 +39,9 @@ return array;
 }
 
 function removeElementFromBeginningOfArray(array) {
+  var newarray = 
   array.slice(1);
-  return array;
+  return newarray;
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
