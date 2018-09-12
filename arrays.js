@@ -20,7 +20,7 @@ return array;
 }
 
 function addElementToEndOfArray (array, element) {
-var caccaarray = [array, ...element];
+var newarray = [array, ...element];
   return caccaarray;
 }
 
@@ -49,7 +49,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  var caccaarray = array.slice (0, array.lenght -1);
-  return caccaarray;
+  var newarray = array.slice (0, array.lenght -1);
+  return newarray;
 }
 
