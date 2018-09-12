@@ -21,7 +21,7 @@ return array;
 
 function addElementToEndOfArray (array, element) {
 var newarray = [array, ...element];
-  return caccaarray;
+  return newarray;
 }
 
 function destructivelyAddElementToEndOfArray (array, element) {
