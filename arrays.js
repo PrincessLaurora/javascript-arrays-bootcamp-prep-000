@@ -20,7 +20,7 @@ return array;
 }
 
 function addElementToEndOfArray (array, element) {
-var newarray = [array, ...element];
+var poparray = [array, ...element];
   return newarray;
 }
 
